@@ -1,0 +1,24 @@
+<div class="all">
+    <div style="text-align: center; ">
+    <form [formGroup]="search" (ngSubmit)="onSubmit(search)">       
+          <h2>Movie Search</h2>
+
+        <div>
+          <mat-form-field>
+            <mat-label>Movie Name  </mat-label>
+            <input matInput      formControlName="name">      
+          </mat-form-field>
+  
+          <mat-form-field>
+            <mat-label>Year </mat-label>
+            <input matInput      formControlName="year">     
+          </mat-form-field>
+        </div>
+        <div style="padding-top: 50px;">
+          <label style="padding: 5px;">
+              <span > <button type="submit" mat-raised-button color="accent">Search</button> </span>
+          </label>
+        </div>
+    </form>
+    </div>
+</div> 

@@ -1,0 +1,36 @@
+<div class="button">
+    <button  mat-raised-button color="primary" (click)="SearchMovie()"> Search Movie </button>
+</div>
+
+
+<div class="a">
+    <div *ngIf="clickproduct">
+      <div class="box">
+        <h2>               {{receivedMovie.Title}} </h2>
+        <h3> Year :      {{receivedMovie.Year}}  </h3>
+        <p>    Rated :  {{receivedMovie.Rated}} </p>
+        <p>    Released :  {{receivedMovie.Released}} </p>
+        <p>    Runtime :  {{receivedMovie.Runtime}} </p>
+        <p>    Genre :  {{receivedMovie.Genre}} </p>
+        <p>    Director :  {{receivedMovie.Director}} </p>
+        <p>    Writer :  {{receivedMovie.Writer}} </p>
+        <p>    Actors :  {{receivedMovie.Actors}} </p>
+        <p>    Plot :  {{receivedMovie.Plot}} </p>
+        <p>    Language :  {{receivedMovie.Language}} </p>
+        <p>    Country :  {{receivedMovie.Country}} </p>
+        <p>    Awards :  {{receivedMovie.Awards}} </p>
+        <p>    Ratings :  {{receivedMovie.Ratings}} </p>
+        <p>    Metascore :  {{receivedMovie.Metascore}} </p>
+        <p>    imdbRating :  {{receivedMovie.imdbRating}} </p>
+        <p>    imdbVotes :  {{receivedMovie.imdbVotes}} </p>
+        <p>    imdbID :  {{receivedMovie.imdbID}} </p>
+        <p>    Type :  {{receivedMovie.Type}} </p>
+        <p>    DVD :  {{receivedMovie.DVD}} </p>
+        <p>    BoxOffice :  {{receivedMovie.BoxOffice}} </p>
+        <p>    Production :  {{receivedMovie.Production}} </p>
+        <p>    Website :  {{receivedMovie.Website}} </p>
+        <p>    Response :  {{receivedMovie.Response}} </p>
+        <p>    
+      </div>
+    </div>
+    </div>
